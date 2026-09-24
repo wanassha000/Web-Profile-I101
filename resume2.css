@@ -1,0 +1,72 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    color: #222222;
+}
+.h1 {
+    color: #17324d;
+}
+.h2 {
+    color: #17324d;
+}
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-list li {
+    float: left;
+    border-right-color: #bbbbbb;
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+.nav-list li a {
+    display: block;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background-color: #17324d;
+    text-decoration: none;
+}
+.nav-list li a:hover {
+    background-color: #111111;
+}
+.nav-list li a.active {
+    background-color: #2f628f;
+}
+.resume-intro {
+    background-color: white;
+    margin-top: 30px;
+    padding: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    border-radius: 15px;
+}
+.section-space {
+    margin-top: 40px;
+}
+.download-button {
+    background-color: #17324d;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.download-button:hover {
+    background-color: #2f628f;
+    color: white;
+}
+.resume-image {
+    max-width: 800px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+}
+.career-box {
+    background-color: white;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    border-radius: 15px;
+}
